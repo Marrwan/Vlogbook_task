@@ -1,5 +1,4 @@
-<!-- WRITE API ENDPOINTS AND DOCUMENTATION -->
-url = https://secure-beach-03949.herokuapp.com/
+
 ## API Endpoints
 
 ### /api/auth/signup
@@ -36,72 +35,15 @@ POST /api/auth/login
 POST /api/auth/logout
 
 ```
-### /api/auth/forget-password
-#### user forget password
+
+### /api/auth/verify
+#### verify email
 
 ```
-POST /api/auth/forget-password
+POST /api/auth/verify
 
 {
   "email": "
 }
-
-```
-### /api/auth/reset
-#### user reset password
-
-```
-POST /api/auth/reset
-
-{
-  "password": "
-  "token": "
-}
-
-```
-
-### /api/
-#### get list of products
-
-```
-GET /api
-
-```
-
-### /api/:id
-#### get product by id
-
-```
-GET /api/:id
-
-```
-
-### /api
-#### create product
-
-```
-POST /api
-
-{
-  "name": "
-  "description": "
-  "price": "
-  "image": "
-  "inventoryQuantity": "
-}
-
-```
-### /api/:id/cart
-#### add product to cart
-
-```
-POST /api/:id/cart
-
-```
-### /api/:id/pay
-#### pay for product
-
-```
-POST /api/:id/pay
 
 ```
