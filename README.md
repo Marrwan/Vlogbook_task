@@ -62,19 +62,13 @@ GET /api/todos
   "todos": [
     {
       "id": 1,
-      "title": "todo 1",
-      "description": "todo 1 description",
-      "completed": false,
-      "createdAt": "2020-05-01T00:00:00.000Z",
-      "updatedAt": "2020-05-01T00:00:00.000Z"
+      "todo": "todo 1",
+    
     },
     {
       "id": 2,
-      "title": "todo 2",
-      "description": "todo 2 description",
-      "completed": false,
-      "createdAt": "2020-05-01T00:00:00.000Z",
-      "updatedAt": "2020-05-01T00:00:00.000Z"
+      "todo": "todo 2",
+     
     }
   ]
 }
