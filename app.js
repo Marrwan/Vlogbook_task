@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/api", TodoRouter);
+app.use("/api/todos", TodoRouter);
 app.use("/api/auth", authRouter);
 
 module.exports = app;
